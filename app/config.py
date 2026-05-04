@@ -15,7 +15,7 @@ class Settings(BaseSettings):
 
     azure_openai_endpoint: str = Field(...)
     azure_openai_key: str = Field(...)
-    azure_openai_api_version: str = "2025-01-01-preview"
+    azure_openai_api_version: str = "2025-04-01-preview"
     azure_openai_chat_deployment: str = "gpt-4o"
     azure_openai_judge_deployment: str = "gpt-4o"
 

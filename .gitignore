@@ -19,5 +19,8 @@ htmlcov/
 .vscode/
 .idea/
 
+# Logs
+*.log
+
 # Data
 data/sample_invoices/*.pdf

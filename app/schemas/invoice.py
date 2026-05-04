@@ -30,8 +30,16 @@ class InvoiceRequest(BaseModel):
 FieldStatus = Literal["match", "mismatch", "missing"]
 
 
+class FieldResults(BaseModel):
+    invoice_number: FieldStatus
+    invoice_date: FieldStatus
+    base_amount: FieldStatus
+    tax_amount: FieldStatus
+    line_items: FieldStatus
+
+
 class ValidationReport(BaseModel):
-    field_results: dict[str, FieldStatus]
+    field_results: FieldResults
     overall_match_rate: float
     notes: str = ""
 

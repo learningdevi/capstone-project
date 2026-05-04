@@ -8,7 +8,7 @@
       "base_amount": 1000.00,
       "tax_amount": 180.00,
       "line_items": [
-        { "description": "Consulting", "quantity": 10, "unit_price": 100.0, "amount": 1000.0 }
+        { "description": "Consulting Services", "quantity": 10, "unit_price": 100.0, "amount": 1000.0 }
       ]
     },
     "metadata": { "vendor": "Acme Corp" }
